@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+:root {
+    --body-font: 'Poppins', sans-serif;
+    --big-font: 2.5rem;
+    --small-font: 1rem;
+    --primary-btn-gradient: linear-gradient(98.7deg,#5240f9 19.95%,#f3526d 89.51%);
+}
+
+.app-body {
+    background-color: rgb(50, 56, 63);
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: var(--big-font);
+    font-family: var(--body-font);
+}
+
+h2 {
+    font-size: var(--small-font);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    color: rgb(167, 177, 188);
+}
+
+.username,
+.first-name,
+.last-name,
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: rgb(167, 177, 188);
+    font-size: var(--small-font);
+    gap: .5rem;
+}
+
+.last-name {
+    margin: 1rem 0;
+}
+
+.form-group {
+    margin: 2rem 0;
+}
+
+input {
+    background-color: initial !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-radius: .5rem;
+    font-size: 1rem;
+    outline: none;
+    color: rgb(167, 177, 188);
+    padding: .8rem 0 .8rem .5rem;
+}
+
+.check-box {
+    margin: 1rem 0;
+    color: rgb(167, 177, 188);
+    font-size: var(--small-font);
+}
+
+a {
+    color: rgb(160, 210, 254);
+    text-decoration: none;
+}
+
+button {
+    background: var(--primary-btn-gradient);
+    color: #fff;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: var(--small-font);
+    font-weight: 500;
+    font-family: var(--body-font);
+}
+
+.login {
+    color: rgb(167, 177, 188);
+    margin: 1rem 0;
+}
+
+img {
+    margin-left: .5rem;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 60%;
+        height: 80%;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        height: 90%;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
