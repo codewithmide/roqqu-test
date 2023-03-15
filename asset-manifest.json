@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/roqqu-test/static/css/main.c815a5a3.css",
+    "main.js": "/roqqu-test/static/js/main.ab532d8c.js",
+    "static/js/787.9b06cee2.chunk.js": "/roqqu-test/static/js/787.9b06cee2.chunk.js",
+    "static/media/roqqu-white-logo.svg": "/roqqu-test/static/media/roqqu-white-logo.7ccb7284c0912651997f111ac71a917c.svg",
+    "static/media/arrow-return.svg": "/roqqu-test/static/media/arrow-return.6bf858af098a35eb8be5c84770961067.svg",
+    "index.html": "/roqqu-test/index.html",
+    "main.c815a5a3.css.map": "/roqqu-test/static/css/main.c815a5a3.css.map",
+    "main.ab532d8c.js.map": "/roqqu-test/static/js/main.ab532d8c.js.map",
+    "787.9b06cee2.chunk.js.map": "/roqqu-test/static/js/787.9b06cee2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c815a5a3.css",
+    "static/js/main.ab532d8c.js"
+  ]
+}
